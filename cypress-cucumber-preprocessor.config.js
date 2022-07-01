@@ -1,3 +1,3 @@
 module.exports = {
-  stepDefinitions: ['[filepath]/*.ts}', 'cypress/e2e/**/*.ts']
+  stepDefinitions: ['[filepart]/!(cypress.config).ts', 'cypress/e2e/common/**/*.ts']
 };
